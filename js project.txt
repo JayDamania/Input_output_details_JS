@@ -1,0 +1,29 @@
+Javascript
+Assignment : 1
+Create separate project
+Master/main branch
+
+Create Array of objects - 5 objects 
+[{
+firstName:'abc',
+lastName:'pqr',
+number:,
+likes:['movies','shopping']
+},{},{},{},{}]
+Object property:
+firstName:'',
+lastName:'',
+number:,
+likes:['movies','shopping']
+Create a function findData 
+    will have 2 parameter : 
+        - name - firstName value (person name ex: firstName:'abc' , name='abc')
+        - prop - property name
+findData('abc','lastName')
+
+function:
+1.Find if name exists
+2. If name exists find if the property for that object exists
+3.If property exists then return the value of that property
+4.If property does not exists for found name then return 'No Property found'
+5.If name does not exists then return 'No Such Data'
